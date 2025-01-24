@@ -1,0 +1,14 @@
+name: Call Reusable Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call-reusable:
+    uses: your-username/central-workflows-repo/.github/workflows/reusable-workflow.yml@main
+    with:
+      # Pass inputs if the reusable workflow requires them (none in this case)
+    secrets:
+      # Pass any secrets required by the reusable workflow (none in this case)
