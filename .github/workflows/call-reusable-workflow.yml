@@ -7,7 +7,7 @@ on:
 
 jobs:
   call-reusable:
-    uses: your-username/central-workflows-repo/.github/workflows/reusable-workflow.yml@main
+    uses: rajaniekunde/central-workflows-repo/.github/workflows/reusable-workflow.yml@main
     with:
       # Pass inputs if the reusable workflow requires them (none in this case)
     secrets:
